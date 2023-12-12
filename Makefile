@@ -1,6 +1,6 @@
 obj-m := pid_page_tables.o
 
-KDIR := /home/miracle/work/linux_kernel/build
+KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
 default:
